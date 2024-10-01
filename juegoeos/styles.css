@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Lucida Sans';
+    background-color: #508877;
+}
+
+.background {
+    border: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+    width: 310px;
+    margin: 120px auto;
+}
+.token {
+    background-color: #ededed;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 8px 5px gray;
+}
+.timer {
+    margin: 100px;
+    font-size:large
+}
